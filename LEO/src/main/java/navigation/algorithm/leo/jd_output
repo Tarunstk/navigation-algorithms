@@ -1,0 +1,23 @@
+cd /Users/tarunstk/Desktop/gittemp/navigation-algorithms/LEO; JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home "/Applications/NetBeans/Apache NetBeans 14.app/Contents/Resources/NetBeans/netbeans/java/maven/bin/mvn" -Dexec.vmArgs= "-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}" -Dexec.executable=/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/bin/java -Dexec.mainClass=navigation.algorithm.leo.LEO -Dexec.classpathScope=runtime -Dexec.appArgs= org.codehaus.mojo:exec-maven-plugin:3.0.0:exec
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+-----------------------< com.mycompany.leo:LEO >------------------------
+Building LEO 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:3.0.0:exec (default-cli) @ LEO ---
+Enter the year
+2022
+Enter the month
+10
+Enter the day
+28
+2022.010.028.0
+2459881.4361
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  16.348 s
+Finished at: 2022-10-28T01:45:45-04:00
+------------------------------------------------------------------------
